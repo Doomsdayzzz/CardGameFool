@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CardGameFool", "CardGameFool\CardGameFool.csproj", "{DF201273-DF15-447B-BD71-91B56F4D851E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DF201273-DF15-447B-BD71-91B56F4D851E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF201273-DF15-447B-BD71-91B56F4D851E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF201273-DF15-447B-BD71-91B56F4D851E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF201273-DF15-447B-BD71-91B56F4D851E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
