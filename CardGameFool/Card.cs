@@ -5,7 +5,7 @@ public partial class Card{
     public string Rank { get; set; } //звание
     public int Value { get; set; } // Для сравнения карт
 
-    public Card(string mast, string rank, int value) {
+    public Card(string mast="", string rank="", int value=0) {
         Mast = mast;
         Rank = rank;
         Value = value;

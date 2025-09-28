@@ -19,3 +19,4 @@ C:\Users\AMuDe\RiderProjects\CardGameFool\CardGameFool\obj\Debug\net9.0-windows\
 C:\Users\AMuDe\RiderProjects\CardGameFool\CardGameFool\obj\Debug\net9.0-windows\CardGameFool.genruntimeconfig.cache
 C:\Users\AMuDe\RiderProjects\CardGameFool\CardGameFool\obj\Debug\net9.0-windows\ref\CardGameFool.dll
 C:\Users\AMuDe\RiderProjects\CardGameFool\CardGameFool\obj\Debug\net9.0-windows\Styles.baml
+C:\Users\AMuDe\RiderProjects\CardGameFool\CardGameFool\obj\Debug\net9.0-windows\CardGameFool.sourcelink.json

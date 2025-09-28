@@ -9,14 +9,14 @@ public class Player{
         public string Name { get; set; }
         public List<Card> CardsInHand { get; set; }
         //public Dictionary<string, Button> CardButtonsInHand;
-        //public List<Button> CardButtonsInHand;
+        public List<Button> CardButtonsInHand;
         //public List<Button> AllCardButtons;
         
         public Player(string name) {
             Name = name;
             CardsInHand = new List<Card>();
             //CardButtonsInHand = new Dictionary<string, Button>();
-            //CardButtonsInHand =new ();
+            CardButtonsInHand =new ();
             //AllCardButtons = new List<Button>();
             //массив кнопок
             
@@ -24,21 +24,24 @@ public class Player{
 
         public void AddCard(Card card) {
             CardsInHand.Add(card);
+            CardButtonsInHand.Add(GetBtn($"{card.Rank}-{card.Mast}",
+                $"pack://Application:,,,/Images/cards/{card.Rank}_{card.Mast}.png"));
             
         }
 
         public void RemoveCard(Card card) {
             CardsInHand.Remove(card);
+            CardButtonsInHand.Remove(CardButtonsInHand.Find(x => x.Content == $"{card.Rank}-{card.Mast}"));
         }
         
-        /*
+        
         public Button GetBtn(string name, string imageName) {
             Button button = new Button();
             button.Content = name;
             button.Background = new ImageBrush(new BitmapImage(new Uri(imageName)));
             return button;
         }
-        */
+        
         
         /*
         public Button GetButtonFromKoloda() {
